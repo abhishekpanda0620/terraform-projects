@@ -15,4 +15,15 @@ A complete module to host a static website on AWS using S3 and CloudFront with O
 
 ---
 
+### 2. [VPC Peering](./vpc-peering)
+A multi-region network setup demonstrating VPC Peering between `us-east-1` and `eu-west-2`.
+
+**Features:**
+*   Cross-region VPC Peering.
+*   Automated Route Table configuration with explicit Peering Routes.
+*   Security Group configuration for cross-VPC HTTP/ICMP access.
+*   Multi-provider Terraform setup (Primary & Secondary regions).
+
+---
+
 *More projects to come.*
