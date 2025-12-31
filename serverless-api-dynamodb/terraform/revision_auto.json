@@ -1,0 +1,6 @@
+{
+  "revisionType": "AppSpecContent",
+  "appSpecContent": {
+    "content": "{\"version\":0,\"Resources\":[{\"myLambdaFunction\":{\"Type\":\"AWS::Lambda::Function\",\"Properties\":{\"Name\":\"serverless-api-dynamodb-function\",\"Alias\":\"live\",\"CurrentVersion\":\"2\",\"TargetVersion\":\"4\"}}}]}"
+  }
+}

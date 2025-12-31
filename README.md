@@ -37,4 +37,15 @@ A serverless image processing pipeline with a production-grade observability sta
 
 ---
 
+### 4. [Serverless API with Canary Deployments](./serverless-api-dynamodb)
+A serverless REST API implementation using the API Gateway -> Lambda -> DynamoDB triad, featuring safe, automated deployments.
+
+**Features:**
+*   **Safe Deployments**: Automated Canary rollouts (10% traffic shift) using AWS CodeDeploy.
+*   **Infrastructure as Code**: Modular Terraform design (`lambda`, `dynamodb`, `apigateway`).
+*   **Verification**: Custom simulation script to validate traffic shifting in real-time.
+*   **Resiliency**: Automated rollback on deployment failure.
+
+---
+
 *More projects to come.*
