@@ -26,14 +26,14 @@ A multi-region network setup demonstrating VPC Peering between `us-east-1` and `
 
 ---
 
-### 3. [Serverless Image Processor](./serverless-lambda)
-A modular serverless application for event-driven image processing using AWS S3 and Lambda.
+### 3. [End-to-End Observability](./e2e-lambda-obervability)
+A serverless image processing pipeline with a production-grade observability stack.
 
 **Features:**
-*   **Modular Architecture**: Separated `modules/s3` and `modules/lambda` for maintainability.
-*   **Event-Driven**: Lambda triggered automatically by S3 uploads.
-*   **Custom Layers**: Automated Docker-based build script for Python Pillow dependencies.
-*   **State Recovery**: Scripts included for reliable resource cleanup and state management.
+*   **Full Observability**: CloudWatch Dashboards, Custom Metrics, and Alarms.
+*   **Log Analytics**: Metric Filters extract structured data from unstructured logs.
+*   **Alerting Pipeline**: SNS-based notifications for Critical, Performance, and Log-pattern events.
+*   **Modular Design**: 6+ Terraform modules including `log_alerts` and `cloudwatch_metrics`.
 
 ---
 
