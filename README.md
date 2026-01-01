@@ -48,4 +48,18 @@ A serverless REST API implementation using the API Gateway -> Lambda -> DynamoDB
 
 ---
 
+### 5. [SNS-SQS Fanout](./sns-sqs-fanout)
+A production-grade event-driven messaging architecture using SNS fanout to multiple SQS queues.
+
+**Features:**
+
+*   **Fanout Pattern**: Single SNS topic distributes messages to multiple SQS queues (Shipping, Analytics).
+*   **Dead Letter Queues**: Automatic DLQ with configurable redrive policy for failed messages.
+*   **Encryption**: KMS CMK for SNS/SQS encryption at rest with service-level key policies.
+*   **Terraform Best Practices**: Version constraints, input validation, default tags, reusable modules.
+*   **DLQ Simulation**: Interactive script to demonstrate Dead Letter Queue behavior.
+
+---
+
 *More projects to come.*
+
